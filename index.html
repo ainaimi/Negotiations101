@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Negotiation 101</title>
+    <meta charset="utf-8" />
+    <meta name="date" content="2021-03-25" />
+    <script src="libs/header-attrs-2.7/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/aml-theme.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/aml-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: title-slide, left, bottom
+
+&lt;font size="50"&gt; Negotiation: Some Basic Considerations &lt;/font&gt; 
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+**Ashley I Naimi, PhD** &lt;br&gt; Associate Professor &lt;br&gt; Emory University &lt;br&gt;
+
+&lt;svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"&gt;&lt;/path&gt;&lt;/svg&gt; &amp;nbsp; ashley.naimi@emory.edu &lt;br&gt; &lt;svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"&gt;&lt;/path&gt;&lt;/svg&gt; &amp;nbsp; @ashley_naimi &lt;br&gt; &lt;svg viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"&gt;  [ comment ]  &lt;path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"&gt;&lt;/path&gt;&lt;/svg&gt; &amp;nbsp; ainaimi &lt;br&gt;
+
+
+
+
+
+---
+# Negotiation
+
+.font150[
+* Disclaimer
+
+* Should You Negotiate?
+
+* Negotiate for What?
+
+* Do Your Homework!
+
+* Build a Strategy!
+
+* How to Negotiate
+]
+
+---
+# Disclaimer
+
+.font150[
+* I am not formally trained in negotiation. 
+
+* I have negotiated three **academic** positions (two poorly, one not so poorly). 
+]
+
+---
+# Should You Negotiate?
+
+.pull-left[
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Companies that rescind offers when people try to negotiate are bullshit. Just heard of this happening to 3 separate women and I am livid. 😡&lt;/p&gt;&amp;mdash; EricaJoy (@EricaJoy) &lt;a href="https://twitter.com/EricaJoy/status/616777443777490944?ref_src=twsrc%5Etfw"&gt;July 3, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt; 
+
+]
+
+--
+
+.pull-right[
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;having an offer rescinded is one of the top fears of women when negotiating comes up&lt;br&gt;&lt;br&gt;if you rescind her offer, you aren&amp;#39;t ensuring future women won&amp;#39;t negotiate. you&amp;#39;re ensuring they won&amp;#39;t apply.&lt;br&gt;&lt;br&gt;(maybe that&amp;#39;s the point)&lt;/p&gt;&amp;mdash; bletchley punk (@alicegoldfuss) &lt;a href="https://twitter.com/alicegoldfuss/status/1100522925952647168?ref_src=twsrc%5Etfw"&gt;February 26, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt; 
+
+]
+
+---
+# Should You Negotiate?
+
+.font150[
+
+**ALWAYS NEGOTIATE**
+
+]
+
+--
+
+.font150[
+
+The one (justifiable) exception where you might choose not to negotiate is when: **(a)** your current personal or work situation is dangerous (and the job offers a clear path out of that danger); AND **(b)** there is a risk that negotiation can lead to rescindment.
+
+]
+
+--
+
+.font150[
+
+You can always ask if there's room for negotiation.
+
+]
+
+--
+
+.font150[
+
+If you choose not to negotiate, have a long game (but actually, always have a long game!).
+
+]
+
+--
+
+.font150[
+
+&lt;span style="color: red"&gt; It is very rare that an academic job offer is made w/o the expectation to negotiate. &lt;/span&gt;
+
+]
+
+---
+# Should You Negotiate?
+
+.font150[
+
+Consider our situation in 2015 ...
+
+&lt;img src="images/cutie_pie.jpg" width="600px" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# Negotiate for What?
+
+.pull-left[
+
+.font150[
+
+* Salary
+
+* Start-Up Funds
+
+* Admin Assistance
+
+* Teaching Load
+]
+
+]
+
+.pull-right[
+
+.font150[
+
+* Funding Expectations
+
+* Space
+
+* Relocation
+
+* Signing Bonus
+
+]
+
+]
+
+--
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;center&gt;
+.font150[
+
+&lt;span style="color: red"&gt;  All of these asks need to be calibrated to the hiring department &lt;/span&gt;
+
+]
+&lt;/center&gt;
+
+
+---
+# Do Your Homework!
+
+.font150[
+
+Some Salaries have to be published by law:
+
+NIH:
+
+https://www.fedsdatacenter.com
+
+UNC Chapel Hill
+
+https://www.newsobserver.com/news/databases/state-pay/article11865482.html
+
+The ASA publishes an annual distribution of salaries for Academic Statisticians
+
+https://www.amstat.org/ASA/Your-Career/Salary-Information.aspx
+
+]
+
+---
+# Do Your Homework!
+
+.font150[
+
+There are tremendous resources out there on how to strategize:
+
+I like Karen Kelsky's articles on negotiation:
+
+https://community.chronicle.com/people/150-karen-kelsky/profile
+
+https://community.chronicle.com/news/2178-the-professor-is-in-why-you-should-negotiate-every-job-offer
+
+Books on negotiation:
+
+https://www.google.com/books/edition/Getting_to_Yes/4bEty3TO-R8C?hl=en&amp;gbpv=0
+
+https://www.google.com/books/edition/Never_Split_the_Difference/RmdqCgAAQBAJ?hl=en&amp;gbpv=0
+
+
+]
+
+---
+# Do Your Homework!
+
+.font150[
+
+Talk to colleagues and mentors:
+
+For me, Steve Cole (UNC) was my PhD Advisor and gave me great advice. Enrique Schisterman (NIH, now UPenn) is a mentor and friend and has experience on the hiring side of the negotiating table. I also reached out to friends with recent experience / offers from the institution that was hiring me.
+
+
+]
+
+---
+# Build a Strategy!
+
+.font150[
+
+For instance, write up two lists: 1) what would get you to sign with no questions asked? 2) what is your walk away threshold?
+
+]
+
+--
+
+Hi Tim,
+
+It was great talking with you yesterday. I’m super excited about this opportunity. I don’t think I mentioned that I am considering another offer as well, but Emory is my top choice. I’m really confident that I’d fit in well in the department and am excited about the direction my career will take there.
+
+After some careful thought, there’s only one thing causing some reluctance on my end. Generous as the current salary offer is, we couldn’t really make that work for the family. If you were able to offer a base salary of XXXXXX and XX% of base signing bonus, I would happily sign the offer letter (meaning, I would not come back to you with counteroffers from any other institutions, or accept offers from other institutions, even if higher). I realize this is a big ask, but it’s not too far from the range we initially discussed (I hope I didn’t misunderstand), and actually very close to the other offer I’m considering.
+
+I would be happy to chat about any of this by phone/zoom, or continue with email, as you prefer.
+
+Best,
+
+Ashley
+
+---
+# Build a Strategy!
+
+.font150[
+
+Part of your strategy should be the ability to **reasonably justify your ask**
+
+]
+
+.pull-left-a-little[
+
+&lt;img src="images/drake-nope.png" width="400px" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right-a-lot[
+.font150[
+
+* I have, or plan on having, a lot of children!
+
+* I invested poorly and need money!
+
+* I like Fabergé eggs!
+
+* &lt;span style="color: red"&gt; Even serious personal circumstances &lt;/span&gt;
+
+]
+]
+
+---
+# Build a Strategy!
+
+.font150[
+
+Part of your strategy should be the ability to **reasonably justify your ask**
+
+]
+
+.pull-left-a-little[
+
+&lt;img src="images/drake-yep.png" width="400px" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right-a-lot[
+.font150[
+
+* Funded over XX% for the last YY years
+
+* XX many publications in high impact journals
+
+* I have received YY awards
+
+* Consistently excellent student feedback
+
+]
+]
+
+---
+# Build a Strategy!
+
+.font150[
+
+Part of your strategy should be the ability to **reasonably justify your ask**
+
+]
+
+.font150[
+
+Generally, try not to distinguish yourself and justify your ask on the basis of your personal situation or complications. Instead, justify your ask on the basis of demonstrated excellence in the field and what you can contribute to the department.
+
+]
+
+---
+# How to Negotiate
+
+.font150[
+
+* When hiring you, the Chair or Dean you are negotiating with is primarily responsible to the department(s) they represent. They are not your friends (even if they are).
+
+* Do not approach the negotiation with an adversarial mindset, but be mindful of your needs and interests.
+
+* You should not have to make life-altering decisions on the spot. Be timely with your follow-up, but know that you can ask for time to think. 
+
+* Be grateful when you receive an offer, even if it is not what you wanted or expected.
+
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLanguage": "R",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
