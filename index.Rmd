@@ -37,7 +37,7 @@ class: title-slide, left, bottom
 
 **Ashley I Naimi, PhD** <br> Associate Professor <br> Emory University <br>
 
-`r icon::fontawesome("envelope")` &nbsp; ashley.naimi@emory.edu <br> `r icon::fontawesome("twitter")` &nbsp; @ashley_naimi <br> `r icon::fontawesome("github")` &nbsp; ainaimi <br>
+`r icons::fontawesome("envelope")` &nbsp; ashley.naimi@emory.edu <br> `r icons::fontawesome("twitter")` &nbsp; @ashley_naimi <br> `r icons::fontawesome("github")` &nbsp; ainaimi <br>
 
 
 ```{r startup, include = FALSE, message = FALSE, warning = FALSE}
@@ -371,4 +371,3 @@ Generally, try not to distinguish yourself and justify your ask on the basis of 
 * Be grateful when you receive an offer, even if it is not what you wanted or expected.
 
 
-]
